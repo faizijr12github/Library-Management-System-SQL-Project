@@ -93,48 +93,37 @@ ORDER BY rental_income DESC;
 
 ```
 ---
-💡 Learning Outcomes
+## 💡 Learning Outcomes
 From this project, you will:
 
-Understand database schema design for library systems
+- Understand database schema design for library systems
+- Write efficient SQL queries for real-world problems
+- Use aggregate, analytical, and date functions
+- Create reports for business decision-making
+- Gain confidence in SQL for data analysis
 
-Write efficient SQL queries for real-world problems
+## 📂 Project Files
+- **SQL Script** → All table creation, insertion, and queries
+- **Sample Data** → Simulated library records
+- **Analysis Queries** → Business intelligence & reporting SQL
 
-Use aggregate, analytical, and date functions
+## 🏆 Use Cases
+- Library operations tracking
+- Rental revenue reporting
+- Staff performance evaluation
+- Late return penalties
+- Inventory & demand analysis
 
-Create reports for business decision-making
-
-Gain confidence in SQL for data analysis
-
-📂 Project Files
-SQL Script → All table creation, insertion, and queries
-
-Sample Data → Simulated library records
-
-Analysis Queries → Business intelligence & reporting SQL
-
-🏆 Use Cases
-Library operations tracking
-
-Rental revenue reporting
-
-Staff performance evaluation
-
-Late return penalties
-
-Inventory & demand analysis
-
-🤝 Contribution
+## 🤝 Contribution
 Feel free to fork this repository, add more queries, optimize existing ones, or extend the system with new features like:
 
-Fines calculation
+- Fines calculation
+- Book reservations
+- Multi-branch inter-library lending
 
-Book reservations
+## 📬 Contact
+**Author:** Muhammad Faizan  
+**Role:** Data Analyst & SQL Developer  
+📧 **Email:** faizan.jr12@gmail.com  
+💼 **LinkedIn:** https://www.linkedin.com/in/muhammad-faizan-074575250/
 
-Multi-branch inter-library lending
-
-📬 Contact
-Author: Muhammad Faizan
-Role: Data Analyst & SQL Developer
-📧 Email: faizan.jr12@gmail.com
-💼 LinkedIn: https://www.linkedin.com/in/muhammad-faizan-074575250/
