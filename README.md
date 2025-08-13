@@ -32,39 +32,39 @@ The system uses the following main tables:
 ## 🚀 Key SQL Features Implemented
 
 ### 1️⃣ CRUD Operations
-- **Create** – Add new books, members, and employees
-- **Read** – Retrieve data with filtering, sorting, and aggregation
-- **Update** – Modify member addresses, book statuses, etc.
-- **Delete** – Remove issued records or outdated entries
+- **Create** – Add new books, members, and employees  
+- **Read** – Retrieve data with filtering, sorting, and aggregation  
+- **Update** – Modify member addresses, book statuses, etc.  
+- **Delete** – Remove issued records or outdated entries  
 
 ### 2️⃣ Business Queries
-- Top 3 employees who issued the most books
-- Members who issued more than 3 books
-- Total rental income by category
-- Books never issued
-- Overdue books and days overdue
-- Branch performance (books issued, returned, rental income)
-- Average salary per branch
+- Top 3 employees who issued the most books  
+- Members who issued more than 3 books  
+- Total rental income by category  
+- Books never issued  
+- Overdue books and days overdue  
+- Branch performance (books issued, returned, rental income)  
+- Average salary per branch  
 
 ### 3️⃣ Analytical Tables (CTAS)
-- `book_issued_cnt` – Tracks the number of times each book was issued
-- `expensive_books` – Lists books above average rental price
-- `active_members` – Tracks members active in the last 2 months
+- `book_issued_cnt` – Tracks the number of times each book was issued  
+- `expensive_books` – Lists books above average rental price  
+- `active_members` – Tracks members active in the last 2 months  
 
 ### 4️⃣ Advanced SQL
-- **Window Functions** – Average salary comparison within branches
-- **CTEs** – Identify employees with above-average salaries
-- **Date Functions** – Find recent issues, overdue returns, and seasonal trends
-- **Joins** – Combine multiple tables for richer insights
+- **Window Functions** – Average salary comparison within branches  
+- **CTEs** – Identify employees with above-average salaries  
+- **Date Functions** – Find recent issues, overdue returns, and seasonal trends  
+- **Joins** – Combine multiple tables for richer insights  
 
 ---
 
 ## 📊 Example Insights from Queries
-- **Most Popular Book:** Get top 5 most issued book titles
-- **Highest Spending Member:** Find the member who spent the most on rentals
-- **Branch Without Employees:** Detect branches that need staffing
-- **Late Returns:** Identify members delaying returns beyond 30 days
-- **Revenue by Category:** Analyze rental income across genres
+- **Most Popular Book:** Get top 5 most issued book titles  
+- **Highest Spending Member:** Find the member who spent the most on rentals  
+- **Branch Without Employees:** Detect branches that need staffing  
+- **Late Returns:** Identify members delaying returns beyond 30 days  
+- **Revenue by Category:** Analyze rental income across genres  
 
 ---
 
@@ -90,6 +90,9 @@ FROM books
 JOIN issued_status ON issued_status.issued_book_isbn = books.isbn
 GROUP BY books.category
 ORDER BY rental_income DESC;
+
+```
+---
 💡 Learning Outcomes
 From this project, you will:
 
